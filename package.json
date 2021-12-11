@@ -1,0 +1,19 @@
+{
+  "name": "someapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:tsnd": "tsnd --respawn --transpile-only src/index.ts",
+    "start:node": "node src/server.js",
+    "client": "node dist/cliente.js",
+    "server": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.12",
+    "ts-node-dev": "^1.1.8"
+  }
+}
